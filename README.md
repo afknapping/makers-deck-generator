@@ -1,3 +1,28 @@
+    $ bundle
+
+start and open with:
+
+    $ bundle exec middleman
+    $ open http://localhost:4567/
+
+or use
+
+    $ ./run
+
+wait a sec and reload.
+
+This a fork of the [Sauce template]() for [Middleman](http://middlemanapp.com/).
+
+Added:
+
+- fontawesome 4.0.3
+- indented syntax sass
+- less sass mixins from the start
+- vanilla javascript (since i haven't switched to coffee *yet*)
+- some String methods (js/shared/plugins)
+
+---
+
 ![Sauce](source/images/sauce.png?raw=true)
 
 ## Overview

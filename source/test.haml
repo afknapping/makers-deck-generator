@@ -1,0 +1,22 @@
+---
+title:   Welcome to Sauce
+layout:  main
+classes: home
+---
+
+- data.tradingCards.each do |card|
+  .trading-card
+    .trading-card--title
+      = card[1].title
+    %img.trading-card--image{ :src => "#{card[1].image}" }
+    .trading-card--meta-data
+      %span.trading-card--creators
+        = card[1].creators
+      ,
+      %span.trading-card--year-of-birth
+        = card[1].year_of_birth
+      \/
+      %span.trading-card--print-url
+        = card[1].print_url
+    .trading-card--info
+      = card[1].info
